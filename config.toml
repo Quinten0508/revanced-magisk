@@ -5,6 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # https://github.com/inotia00/revanced-patches
 
 [Music]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -13,18 +14,22 @@ arch = "arm64-v8a"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom playback speed' 'Hide cast button' 'Translations'"
 
 [Twitch]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 arch = "arm64-v8a"
 
 [Instagram]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 arch = "arm64-v8a"
 
 [Twitter]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 arch = "arm64-v8a"
 
 [YouTube]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -34,11 +39,13 @@ included-patches = "'Hide voice search button'"
 excluded-patches = "'Custom branding name YouTube' 'Custom double tap length' 'Custom playback speed' 'Custom player overlay opacity' 'Custom seekbar color' 'Default playback speed' 'Disable HDR video' 'Disable QUIC protocol' 'Disable haptic feedback' 'Hide button container' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide fullscreen panels' 'Hide handle' 'Hide info cards' 'Hide latest videos button' 'Hide load more button' 'Hide suggested video overlay' 'Overlay buttons' 'Translations'"
 
 [Reddit]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
 
 [Tiktok]
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 arch = "arm64-v8a"
